@@ -31,7 +31,7 @@ Natours is a fictional nature tours company website that serves as a practice pr
 
 ## Live View 🌐
 
-Click [here](#) to view the live demo of the completed Natours project. (Link will be provided upon deployment)
+Click [here](https://edfrax.github.io/Natours/) to view the live demo of the completed Natours project. (Link will be provided upon deployment)
 
 ## Credits 🌟
 

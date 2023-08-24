@@ -1,0 +1,59 @@
+.moveFromStart {
+    animation: moveFromStart 1s ease-out;
+}
+
+.moveFromEnd {
+    animation: moveFromEnd 1s ease-out;
+}
+
+.moveFromDownAndFade {
+    animation: moveFromDownAndFade 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveFromStart {
+
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveFromEnd {
+
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80%{
+        transform: translateX(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveFromDownAndFade {
+
+    0%{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

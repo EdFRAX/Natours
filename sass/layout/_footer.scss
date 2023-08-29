@@ -77,8 +77,9 @@
         float: right;
 
         @include respond(tab-port) {
-            width: 80%;
+            width: 100%;
             float: none;
+            text-align: center;
         }
     }
 }
